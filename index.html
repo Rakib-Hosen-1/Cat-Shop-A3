@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <nav class="nav-bg">
+      <nav class="nav-bg">
             <div class="container mx-auto flex items-center justify-between p-4">
               <!-- Logo Section -->
             <div class="flex items-center space-x-2">
@@ -48,46 +48,51 @@
               <!-- Icons and Buttons -->
             <div class="hidden md:flex items-center space-x-4">
                 <!-- Notification Icon -->
-                <button class="text-color hover:text-yellow-500">
+                <div class="text-color ">
                     <img class="h-5.5 w-5.5" src="/c1-assets/notification.png" alt="">
-                </button>
+                </div>
         
                 <!-- Search Icon -->
-                <button class="text-gray-600 hover:text-yellow-500">
+                <div class="text-color">
                     <img class="h-5 w-5" src="/c1-assets/search.png" alt="">
-                </button>
+                </div>
         
                 <!-- Login Button -->
-                <a href="#" class="border border-yellow-500 text-yellow-500 px-4 py-1 rounded-lg hover:bg-yellow-500 hover:text-white">Login</a>
-        
+                <button class="btn btn-warning">Login</button>
                 <!-- Register Button -->
-                <a href="#" class="bg-yellow-500 text-white px-4 py-1 rounded-lg hover:bg-yellow-600">Register</a>
+                <button class="btn btn-warning">Register</button>
               </div>
             </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section>
         
-            <!-- Mobile Menu -->
-            <div class="hidden md:hidden bg-amber-50 px-4 py-2">
-              <ul class="space-y-2 text-color font-[sora]">
-                <li><a href="#" class="block hover:text-yellow-500">Find a pet</a></li>
-                <li><a href="#" class="block hover:text-yellow-500">Breeds</a></li>
-                <li><a href="#" class="block hover:text-yellow-500">Contact us</a></li>
-                <li>
-                  <a href="#" class="block text-yellow-500 border border-yellow-500 text-center px-4 py-1 rounded-lg hover:bg-yellow-500 hover:text-white">Login</a>
-                </li>
-                <li>
-                  <a href="#" class="block bg-yellow-500 text-white text-center px-4 py-1 rounded-lg hover:bg-yellow-600">Register</a>
-                </li>
-              </ul>
+          <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 lg:relative">
+            <!-- Text Content -->
+            <div class="text-center md:text-left lg:absolute top-20">
+              <h1 class="text-4xl font-extrabold text-color font-[adlam-display-regular]">
+                Pamper Your Pet,<br> Because They Deserve<br> the Best
+              </h1>
+              <p class="mt-4 text-color">
+                Discover a world of treats, toys, and essentials handpicked for your furry friends.<br>
+                Shop now and make tails wag with joy!
+              </p>
+              <button class="mt-6 px-6 py-3 rounded-lg btn btn-warning"> Find a pet </button>
             </div>
-        </nav>
-
-        <!-- Hero section -->
-    </header>
-    <main>
-
-    </main>
-    <footer>
+            <!-- Image -->
+            <div class="flex">
+              <img class="w-full" src="/c1-assets/cat-bg.png" alt="">
+            </div>
+          </div>
         
-    </footer>
+      </section>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+        
+  </footer>
 </body>
 </html>
