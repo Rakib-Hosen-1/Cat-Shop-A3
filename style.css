@@ -23,3 +23,7 @@
 .bg-image{
     background-image: url("/c1-assets/cat-big.png");
 }
+/* Cards color */
+.card-bg{
+     background-color: #F9DF8A;
+}
