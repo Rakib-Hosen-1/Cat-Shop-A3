@@ -1,0 +1,25 @@
+/* Font-family */
+.sora {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.adlam-display-regular {
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* primary color palet */
+.accent{
+    color: #FFDC26;
+}
+.text-color{
+    color: #111111;
+}
+/* Nav-bar background color */
+.nav-bg{
+    background-color: #FFF9F4;
+}
+.bg-image{
+    background-image: url("/c1-assets/cat-big.png");
+}
