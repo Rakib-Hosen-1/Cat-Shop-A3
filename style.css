@@ -31,3 +31,9 @@
 .trend-bg{
     background-color: #FFF9F4;
 }
+.gradient1{
+    background: linear-gradient(to right, #FFF9F4 0%, #F9DF8A 80%);
+}
+.gradient2{
+    background: linear-gradient(to right, #F8CCFB 0%, #ACD2FD 80%);
+}
